@@ -7,7 +7,7 @@ const Testimonials = () => {
             <div className="w-[26rem] my-4 mx-auto">
                 <div className="border-t border-lime-600 border-4"></div>
             </div>
-            <div className="flex justify-between mx-16 mt-32">
+            <div className="flex gap-8 mx-16 mt-32 ">
                 <div className="card card-compact bg-base-100 w-96 shadow-xl py-4">
                     <figure>
                         <img
