@@ -36,7 +36,7 @@ const FoodList = () => {
         <div>
             <h1 className="text-5xl text-lime-500 font-semibold mt-8">Food List</h1>
             <div className="flex justify-center">
-                <div className="mt-12 mx-8 flex flex-wrap gap-8 mb-12 justify-center">
+                <div className="mt-12 mx-8 grid grid-cols-4 gap-8 mb-12 justify-center">
                     {foods.map((food, index) => (
                         <div key={index} className="card bg-base-100 w-[18rem] shadow-xl">
                             <figure>
