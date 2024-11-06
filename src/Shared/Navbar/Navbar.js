@@ -9,7 +9,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center flex w-1/3 justify-between">
                 <Link href="#" className="hover:text-gray-300">Home</Link>
-                <Link href="#" className="hover:text-gray-300">About Us</Link>
+                <Link to="/foodList" className="hover:text-gray-300">Food List</Link>
                 <Link href="#" className="hover:text-gray-300">Contact</Link>
             </div>
             <div className="navbar-end">

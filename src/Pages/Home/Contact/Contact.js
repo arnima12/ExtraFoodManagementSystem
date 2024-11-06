@@ -64,7 +64,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div>
-                            <button className="readBtn text-white py-2 px-4 mt-4">Send Message</button>
+                            <button className=" bg-orange-500 hover:bg-white hover:text-orange-500 hover:border-orange-500 hover:border-2 rounded-lg px-6 text-xl w-36 text-white h-[2.5rem] mb-12">Send</button>
                         </div>
                     </div>
                 </form>
